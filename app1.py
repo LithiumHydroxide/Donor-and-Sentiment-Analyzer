@@ -13,7 +13,7 @@ from groq import Client
 @st.cache_data
 def get_groq_response(prompt, system_prompt=None):
     try:
-        GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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")
+        GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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")
         client = Client(api_key=GROQ_API_KEY)
 
         
